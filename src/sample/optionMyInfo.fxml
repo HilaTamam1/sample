@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="295.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.OptionMyInfo">
+    <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+    <Text layoutX="111.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select action" wrappingWidth="241.1640625" />
+    <Button layoutX="111.0" layoutY="68.0" mnemonicParsing="false" onAction="#openDisplayDetail" prefHeight="48.0" prefWidth="223.0" text="Display Detail" />
+    <Button fx:id="preBtn" layoutX="98.0" layoutY="212.0" mnemonicParsing="false" onAction="#previousWindow" prefHeight="34.0" prefWidth="249.0" text="To the previous window" />
+    <Button layoutX="111.0" layoutY="137.0" mnemonicParsing="false" onAction="#DisplayLoanProduct" prefHeight="48.0" prefWidth="223.0" text="My Loan Product" />
+
+</AnchorPane>

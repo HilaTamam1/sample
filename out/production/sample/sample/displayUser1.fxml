@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="490.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.DisplayUser">
+    <Text layoutX="141.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="My detail" textAlignment="CENTER" wrappingWidth="317.275390625" />
+    <Label layoutX="71.0" layoutY="71.0" text="First name" textAlignment="RIGHT" />
+    <Label layoutX="71.0" layoutY="129.0" text="Last name" textAlignment="RIGHT" />
+    <Label layoutX="71.0" layoutY="193.0" text="Email" textAlignment="RIGHT" />
+    <Label layoutX="71.0" layoutY="251.0" text="Password" textAlignment="RIGHT" />
+    <Label layoutX="71.0" layoutY="310.0" text="Phone number" textAlignment="RIGHT" />
+    <TextArea fx:id="firstName" editable="false" layoutX="254.0" layoutY="60.0" prefHeight="38.0" prefWidth="239.0" />
+    <TextArea fx:id="lastName" editable="false" layoutX="254.0" layoutY="119.0" prefHeight="38.0" prefWidth="239.0" />
+    <TextArea fx:id="email" editable="false" layoutX="254.0" layoutY="179.0" prefHeight="38.0" prefWidth="239.0" />
+    <TextArea fx:id="password" editable="false" layoutX="254.0" layoutY="238.0" prefHeight="38.0" prefWidth="239.0" />
+    <TextArea fx:id="renter" editable="false" layoutX="254.0" layoutY="358.0" prefHeight="38.0" prefWidth="239.0" />
+    <TextArea fx:id="phonenumber" editable="false" layoutX="254.0" layoutY="299.0" prefHeight="38.0" prefWidth="239.0" />
+    <Label layoutX="71.0" layoutY="369.0" text="Are you a renter?" />
+    <Button layoutX="126.0" layoutY="431.0" mnemonicParsing="false" onAction="#previousWindow" prefHeight="25.0" prefWidth="317.0" text="To the previous window" />
+</AnchorPane>

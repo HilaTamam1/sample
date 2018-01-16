@@ -1,0 +1,48 @@
+.root
+{
+    -fx-background-repeat: stretch;
+/*    -fx-background-image: url("Images/screen11.png");*/
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+
+}
+Label{
+    -fx-font-family: "Gill Sans Ultra Bold", Times, serif;
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+
+}
+Text{
+    -fx-font-family: "Gill Sans Ultra Bold", Times, serif;
+    -fx-font-weight: bold;
+    -fx-font-size: 30px;
+
+
+}
+CheckBox{
+    -fx-font-family: "Gill Sans Ultra Bold", Times, serif;
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+
+
+}
+Button {
+    -fx-text-fill: white;
+    -fx-font-family: "Gill Sans Ultra Bold", Times, serif;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-background-color: darkred ;
+
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+Button:hover{
+    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border ;
+
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 3px, 3px, 2px, 1px;
+    -fx-padding: 0.333333em 0.666667em 0.333333em 0.666667em; /* 4 8 4 8 */
+
+    -fx-text-fill: darkred;
+    -fx-alignment: CENTER;
+    -fx-content-display: LEFT;
+}
